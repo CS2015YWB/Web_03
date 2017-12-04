@@ -1,0 +1,105 @@
+.row{
+    position: relative;
+    right: 55px;
+}
+#control{
+    margin-top: 15px;
+    height: 600px;
+    background-color: #7CDFFF;
+}
+#mycanvas{
+    position: absolute;
+    margin-top: 15px;
+    left: 350px;
+    height: 600px;
+    background-color: #D5F7FF;
+}
+#box{
+    position: absolute;
+    margin:0 auto;
+    width: 40px;
+    height: 40px;
+    background-color: #D3504A;
+    left: 0px;
+    top: 0%;
+}
+h1{
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #FF006C;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+h2{
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#play{
+    position: relative;
+    top: 120px;
+    left: 23%;
+}
+.position{
+    background-color: #D5F7FF;
+    position: relative;
+    top: 240px;
+    height: 200px;
+    width: 100%;
+}
+#buttonup{
+    position: absolute;
+    margin:0 auto;
+    top: 30px;
+    left: 39%;
+}
+#buttonleft{
+    position: absolute;
+    margin:0 auto;
+    top: 90px;
+    left: 10%;
+}
+#buttonright{
+    position: absolute;
+    margin: 0 auto;
+    top: 90px; 
+    left: 55%;
+}
+#buttondown{
+    position: absolute;
+    margin:0 auto;
+    top: 150px;
+    left: 33%;
+}
+#walla{
+    position: absolute;
+    margin:0 auto;
+    width: 20px;
+    height: 350px;
+    left: 550px;
+    background-color: #222222;
+}
+#wallb{
+    position: absolute;
+    margin:0 auto;
+    width: 20px;
+    height: 350px;
+    left: 750px;
+    background-color: #a71d1d;
+}
+#wallc{
+    position: absolute;
+    margin:0 auto;
+    width: 20px;
+    height: 350px;
+    left: 1050px;
+    background-color: #1e8f56;
+}
+#endgame{
+    position: absolute;
+    margin:0 auto;
+    top: 290px;
+    left: 250px;
+    font-family: "华文行楷";
+    font-size: 70px;
+    color: rgb(32, 155, 32);
+}

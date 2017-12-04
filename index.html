@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>An Easy Game</title>
+        <!-- Bootstrap style -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <!-- Layout style -->
+        <link rel="stylesheet" href="./css/layout.css"/>
+        <!-- JQuery -->
+        <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1" id="control">
+                <h1>SCORE:</h1>
+                <h2 id="score">0</h2>
+                <button type="button" class="btn btn-danger" id="play">NEW GAME</button>
+                <div class="position">
+                    <button type="button" class="btn btn-primary" id="buttonup">UP</button>
+                    <button type="button" class="btn btn-success" id="buttonleft">LEFT</button>
+                    <button type="button" class="btn btn-info" id="buttonright">RIGHT</button>
+                    <button type="button" class="btn btn-warning" id="buttondown">DOWN</button>
+                </div>
+            </div>
+            <div class="col-md-9" id="mycanvas">
+                <div id="box"></div>
+                <div id="walla"></div>
+                <div id="wallb"></div>
+                <div id="wallc"></div>
+                <p id="endgame"></p>
+            </div>
+        </div>
+        <!-- background music -->
+        <audio id="bgm1" autoplay="autoplay" loop="loop">
+                <source src="./js/b.mp3" type="audio/mpeg">
+            </audio>
+        <audio id="bgm2" loop="loop">
+            <source src="./js/a.ogg" type="audio/mpeg">
+        </audio>
+        <!-- load JS files -->
+        <script src="./js/play.js"></script>
+        <script src="./js/score.js"></script>
+        <script src="./js/bgm.js"></script>
+        <script src="./js/box.js"></script>
+        <script src="./js/WallA.js"></script>
+        <script src="./js/WallB.js"></script>
+        <script src="./js/WallC.js"></script>
+        <script src="./js/judge.js"></script>
+    </body>
+</html>
